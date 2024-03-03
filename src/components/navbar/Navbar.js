@@ -15,7 +15,7 @@ const [manu,setManu] = useState("main");
             <li onClick={()=>{setManu("main")}}>Main{manu==="main"?<hr/>:<></>}</li>
             <li onClick={()=>{setManu("art_toy")}}>art toy{manu==="art_toy"?<hr/>:<></>}</li>
             <li onClick={()=>{setManu("accessories")}}>accessories{manu==="accessories"?<hr/>:<></>}</li>
-            <li onClick={()=>{setManu("bag")}}>bag{manu==="bag"?<hr/>:<></>}</li>
+            <li onClick={()=>{setManu("other")}}>other{manu==="other"?<hr/>:<></>}</li>
         </ul>
         <div className='nav-login-cart'>
             <button>login</button>
