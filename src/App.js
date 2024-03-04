@@ -8,7 +8,7 @@ import { Accessories} from './pages/Accessories'
 import {Other} from './pages/Other'
 import {Cart} from './pages/Cart'
 import {LoginSignup} from './pages/LoginSignup'
-import Hero from './components/hero/Hero';
+import {Hero} from './components/hero/Hero';
 
 import {
   BrowserRouter, 

@@ -15,14 +15,14 @@ const [manu,setManu] = useState("main");
            
         </div>
         <ul className='nav-manu'>
-            <li onClick={()=>{setManu("main")}}><Link style={{textDecoration:'none'}} to="./">Main</Link>{manu==="main"?<hr/>:<></>}</li>
-            <li onClick={()=>{setManu("art_toy")}}><Link style={{textDecoration:'none'}} to="./art_toy">art toy</Link>{manu==="art_toy"?<hr/>:<></>}</li>
-            <li onClick={()=>{setManu("accessories")}}><Link style={{textDecoration:'none'}} to="./accessories">accessories</Link>{manu==="accessories"?<hr/>:<></>}</li>
-            <li onClick={()=>{setManu("other")}}><Link style={{textDecoration:'none'}} to="./other">other</Link>{manu==="other"?<hr/>:<></>}</li>
+            <li onClick={()=>{setManu("main")}}><Link style={{textDecoration:'none' , color:'black'}} to="./">Main</Link>{manu==="main"?<hr/>:<></>}</li>
+            <li onClick={()=>{setManu("art_toy")}}><Link style={{textDecoration:'none' , color:'black'}} to="./art_toy">art toy</Link>{manu==="art_toy"?<hr/>:<></>}</li>
+            <li onClick={()=>{setManu("accessories")}}><Link style={{textDecoration:'none' , color:'black'}} to="./accessories">accessories</Link>{manu==="accessories"?<hr/>:<></>}</li>
+            <li onClick={()=>{setManu("other")}}><Link style={{textDecoration:'none' , color:'black'}} to="./other">other</Link>{manu==="other"?<hr/>:<></>}</li>
         </ul>
         <div className='nav-login-cart'>
             <Link style={{textDecoration:'none'}} to='./LoginSignup'><button>login</button></Link>
-            <Link style={{textDecoration:'none'}} to='./cart'><MdOutlineShoppingCart size={30}/></Link>
+            <Link style={{textDecoration:'none' , color:'black'}} to='./cart'><MdOutlineShoppingCart size={30}/></Link>
             <div className='nav-cart-count'>0</div>
         </div>
     </div>)
