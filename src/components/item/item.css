@@ -1,0 +1,12 @@
+.item{
+    width: 400px;
+    text-align: center;
+}
+.item p{
+    margin: 6px 0px;
+    
+}
+.item img{
+    height: 300px;
+}
+
