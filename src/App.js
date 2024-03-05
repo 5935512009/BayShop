@@ -15,6 +15,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import { Popular } from './components/popular/Popular';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           
 
         </Routes>
+        <Popular/>
       </BrowserRouter>
       test branch Bay_3BB
 
