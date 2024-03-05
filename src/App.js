@@ -16,6 +16,7 @@ import {
   Routes
 } from "react-router-dom";
 import { Popular } from './components/popular/Popular';
+import { Offers } from './components/offers/Offers';
 
 
 function App() {
@@ -36,12 +37,11 @@ function App() {
           /* <Route path="/item1" element={<Other category="item11"/>}/>
           <Route path="/item2" element={<Other category="item22"/>}/> */}
           
-
         </Routes>
         <Popular/>
       </BrowserRouter>
+      <Offers/>
       test branch Bay_3BB
-
     </div>
   );
 }
