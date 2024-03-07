@@ -17,6 +17,7 @@ import {
 } from "react-router-dom";
 import { Popular } from './components/popular/Popular';
 import { Offers } from './components/offers/Offers';
+import { NewCollections } from './components/NewCollections/NewCollections';
 
 
 function App() {
@@ -40,7 +41,9 @@ function App() {
         </Routes>
         <Popular/>
       </BrowserRouter>
+      
       <Offers/>
+      <NewCollections/>
       test branch Bay_3BB
     </div>
   );
