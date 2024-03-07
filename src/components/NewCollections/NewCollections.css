@@ -1,0 +1,9 @@
+.new-collections{
+    display: flex;
+    flex-direction: column;
+    
+}
+.collections{
+    display: flex;
+    width: 65%;
+}
